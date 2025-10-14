@@ -1,4 +1,3 @@
-# 💤 LazyVim
+# A Very Simple Neovim Config!
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+A very simple Neovim config that uses the new native package manager and LSP...which helps to Lead with #Dignity!
