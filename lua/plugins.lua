@@ -1,0 +1,10 @@
+-- Plugin Setup
+require("plugins.colorscheme")
+require("plugins.telescope")
+require("plugins.tree")
+require("plugins.lsp")
+require("plugins.treesitter")
+require("plugins.lualine")
+require("plugins.blink")
+require("plugins.fzf")
+require("plugins.which-key")

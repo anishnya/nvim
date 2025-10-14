@@ -1,0 +1,22 @@
+{
+    "files.exclude": {
+        "**/.git": false,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/.gitignore": false
+    },
+    "search.exclude": {
+        "**/.git": false,
+        "**/node_modules": true,
+        "**/.DS_Store": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true
+    },
+    "[lua]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    }
+}

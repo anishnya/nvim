@@ -1,0 +1,72 @@
+{
+  "plugins": {
+    "blink": {
+      "rev": "5037cfa",
+      "src": "https://github.com/Saghen/blink.cmp"
+    },
+    "catppuccin": {
+      "rev": "af58927",
+      "src": "https://github.com/catppuccin/nvim"
+    },
+    "friendly-snippets": {
+      "rev": "572f566",
+      "src": "https://github.com/rafamadriz/friendly-snippets"
+    },
+    "fzf-lua": {
+      "rev": "fcbf0cd",
+      "src": "https://github.com/ibhagwan/fzf-lua"
+    },
+    "lualine": {
+      "rev": "b8c2315",
+      "src": "https://github.com/nvim-lualine/lualine.nvim"
+    },
+    "mason-lspconfig.nvim": {
+      "rev": "6bdb14f",
+      "src": "https://github.com/mason-org/mason-lspconfig.nvim"
+    },
+    "mason-tool-installer.nvim": {
+      "rev": "517ef59",
+      "src": "https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim"
+    },
+    "mason.nvim": {
+      "rev": "ad7146a",
+      "src": "https://github.com/mason-org/mason.nvim"
+    },
+    "nvim-lspconfig": {
+      "rev": "ac98db2",
+      "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "plenary": {
+      "rev": "b9fd522",
+      "src": "https://github.com/nvim-lua/plenary.nvim"
+    },
+    "telescope": {
+      "rev": "b4da76b",
+      "src": "https://github.com/nvim-telescope/telescope.nvim"
+    },
+    "telescope-fzf-native": {
+      "rev": "1f08ed6",
+      "src": "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
+    },
+    "tokyonight": {
+      "rev": "d14614c",
+      "src": "https://github.com/folke/tokyonight.nvim"
+    },
+    "tree": {
+      "rev": "e397756",
+      "src": "https://github.com/nvim-tree/nvim-tree.lua"
+    },
+    "treesitter": {
+      "rev": "42fc28ba",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter"
+    },
+    "web-devicons": {
+      "rev": "b8221e4",
+      "src": "https://github.com/nvim-tree/nvim-web-devicons"
+    },
+    "which-key": {
+      "rev": "b4177e3",
+      "src": "https://github.com/folke/which-key.nvim"
+    }
+  }
+}

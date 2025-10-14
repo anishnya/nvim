@@ -1,8 +1,10 @@
-return {
-    -- tokyonight
+vim.pack.add({
     {
-        "folke/tokyonight.nvim",
-        lazy = false,
-        opts = { style = "moon" },
+        src = "https://github.com/folke/tokyonight.nvim",
+        name = "tokyonight",
     },
-}
+})
+
+require("tokyonight").setup({
+    style = "moon",
+})
