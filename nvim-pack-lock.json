@@ -8,6 +8,10 @@
       "rev": "af58927",
       "src": "https://github.com/catppuccin/nvim"
     },
+    "colorful-menu.nvim": {
+      "rev": "d5b97d2",
+      "src": "https://github.com/xzbdmw/colorful-menu.nvim"
+    },
     "friendly-snippets": {
       "rev": "572f566",
       "src": "https://github.com/rafamadriz/friendly-snippets"
@@ -32,13 +36,41 @@
       "rev": "ad7146a",
       "src": "https://github.com/mason-org/mason.nvim"
     },
+    "mini.ai": {
+      "rev": "11c5718",
+      "src": "https://github.com/nvim-mini/mini.ai"
+    },
+    "mini.comment": {
+      "rev": "c40bc46",
+      "src": "https://github.com/nvim-mini/mini.comment"
+    },
+    "mini.cursorword": {
+      "rev": "d843392",
+      "src": "https://github.com/nvim-mini/mini.cursorword"
+    },
+    "mini.pairs": {
+      "rev": "b9aada8",
+      "src": "https://github.com/nvim-mini/mini.pairs"
+    },
+    "mini.surround": {
+      "rev": "444e155",
+      "src": "https://github.com/nvim-mini/mini.surround"
+    },
     "nvim-lspconfig": {
       "rev": "ac98db2",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
+    "oil.nvim": {
+      "rev": "7194872",
+      "src": "https://github.com/stevearc/oil.nvim"
+    },
     "plenary": {
       "rev": "b9fd522",
       "src": "https://github.com/nvim-lua/plenary.nvim"
+    },
+    "precognition.nvim": {
+      "rev": "2aae268",
+      "src": "https://github.com/tris203/precognition.nvim"
     },
     "telescope": {
       "rev": "b4da76b",

@@ -5,4 +5,4 @@ vim.pack.add({
     },
 })
 
-require("fzf-lua").setup()
+require("fzf-lua").setup({ "telescope" })
