@@ -10,6 +10,12 @@ vim.pack.add({
         src = "https://github.com/nvim-treesitter/nvim-treesitter",
         name = "treesitter",
     },
+    {
+        src = "https://github.com/nvim-treesitter/nvim-treesitter-context",
+    },
+    {
+        src = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects",
+    },
 })
 
 -- treesitter
@@ -23,3 +29,5 @@ require("nvim-treesitter.configs").setup({
         enable = true,
     },
 })
+
+require("treesitter-context").setup()

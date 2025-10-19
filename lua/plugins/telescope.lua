@@ -8,7 +8,10 @@ vim.pack.add({
         src = "https://github.com/nvim-telescope/telescope.nvim",
         name = "telescope",
     },
+    {
+        src = "https://github.com/debugloop/telescope-undo.nvim",
+    },
 })
 
-local telescope = require("telescope")
-telescope.setup()
+require("telescope").setup()
+require("telescope").load_extension("undo")

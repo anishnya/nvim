@@ -1,5 +1,13 @@
 {
   "plugins": {
+    "Comment.nvim": {
+      "rev": "e30b7f2",
+      "src": "https://github.com/numToStr/Comment.nvim"
+    },
+    "aerial.nvim": {
+      "rev": "5e687b5",
+      "src": "https://github.com/stevearc/aerial.nvim"
+    },
     "blink": {
       "rev": "5037cfa",
       "src": "https://github.com/Saghen/blink.cmp"
@@ -12,6 +20,10 @@
       "rev": "d5b97d2",
       "src": "https://github.com/xzbdmw/colorful-menu.nvim"
     },
+    "dial.nvim": {
+      "rev": "f0404ec",
+      "src": "https://github.com/monaqa/dial.nvim"
+    },
     "friendly-snippets": {
       "rev": "572f566",
       "src": "https://github.com/rafamadriz/friendly-snippets"
@@ -20,9 +32,21 @@
       "rev": "fcbf0cd",
       "src": "https://github.com/ibhagwan/fzf-lua"
     },
+    "gitsigns.nvim": {
+      "rev": "1ee5c1f",
+      "src": "https://github.com/lewis6991/gitsigns.nvim"
+    },
+    "indent-blankline.nvim": {
+      "rev": "005b560",
+      "src": "https://github.com/lukas-reineke/indent-blankline.nvim"
+    },
     "lualine": {
       "rev": "b8c2315",
       "src": "https://github.com/nvim-lualine/lualine.nvim"
+    },
+    "marks.nvim": {
+      "rev": "f353e8c",
+      "src": "https://github.com/chentoast/marks.nvim"
     },
     "mason-lspconfig.nvim": {
       "rev": "6bdb14f",
@@ -56,9 +80,21 @@
       "rev": "444e155",
       "src": "https://github.com/nvim-mini/mini.surround"
     },
+    "nvim-colorizer.lua": {
+      "rev": "51cf7c9",
+      "src": "https://github.com/catgoose/nvim-colorizer.lua"
+    },
     "nvim-lspconfig": {
       "rev": "ac98db2",
       "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "nvim-treesitter-context": {
+      "rev": "41847d3",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter-context"
+    },
+    "nvim-treesitter-textobjects": {
+      "rev": "71385f1",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
     },
     "oil.nvim": {
       "rev": "7194872",
@@ -79,6 +115,14 @@
     "telescope-fzf-native": {
       "rev": "1f08ed6",
       "src": "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
+    },
+    "telescope-undo.nvim": {
+      "rev": "928d0c2",
+      "src": "https://github.com/debugloop/telescope-undo.nvim"
+    },
+    "text-case.nvim": {
+      "rev": "e898cfd",
+      "src": "https://github.com/johmsalas/text-case.nvim"
     },
     "tokyonight": {
       "rev": "d14614c",

@@ -6,5 +6,5 @@ vim.pack.add({
 })
 
 require("tokyonight").setup({
-    style = "moon",
+    style = "night",
 })

@@ -29,21 +29,30 @@ keymap.set("n", "<leader>wq", "<C-w>q", { desc = "Close window", noremap = true 
 
 -- fzf-lua
 local fzf = require("fzf-lua")
+local aerial = require("aerial")
 keymap.set("n", "<leader>ff", function()
     fzf.files()
 end, { desc = "Find files", noremap = true })
 keymap.set("n", "<leader>fs", function()
     fzf.live_grep_native()
 end, { desc = "Find string (grep)", noremap = true })
+keymap.set("n", "<leader>fc", function()
+    fzf.lgrep_curbuf()
+end, { desc = "Find in Current Buffer", noremap = true })
 keymap.set("n", "<leader>fb", function()
     fzf.buffers()
-end, { desc = "Find in buffers", noremap = true })
+end, { desc = "Find buffers", noremap = true })
 keymap.set("n", "<leader>fr", function()
     fzf.registers()
 end, { desc = "Find in registers", noremap = true })
 keymap.set("n", "<leader>fm", function()
     fzf.marks()
 end, { desc = "Find marks", noremap = true })
+
+keymap.set("n", "<leader>fm", function()
+    aerial.fzf_picker()
+end, { desc = "Find Symbols" })
+keymap.set("n", "<leader>u", "<cmd>Telescope undo<cr>", { desc = "Undo Tree" })
 
 -- LSP Keymaps
 keymap.set("n", "<leader>lr", function()
@@ -83,3 +92,9 @@ keymap.set("n", "<leader>nn", "<cmd>enew<cr>", { desc = "New Empty Buffer" })
 keymap.set("n", "<leader>nh", "<cmd>new<cr>", { desc = "New Horizontal Split" })
 keymap.set("n", "<leader>nv", "<cmd>vnew<cr>", { desc = "New Vertical Split" })
 keymap.set("n", "<leader>nt", "<cmd>tabnew<cr>", { desc = "New Tab" })
+
+-- Oil Keymap
+keymap.set("n", "<leader>o", "<CMD>Oil<CR>", { desc = "Open Oil" })
+
+-- Aerial Kep Map
+keymap.set("n", "<leader>a", "<cmd>AerialToggle!<CR>")
