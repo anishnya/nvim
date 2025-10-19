@@ -18,7 +18,10 @@ vim.pack.add({
     load = true,
 })
 
-require("copilot").setup()
+require("copilot").setup({
+    suggestion = { enabled = false },
+    panel = { enabled = false },
+})
 
 require("blink.cmp").setup({
     sources = {
