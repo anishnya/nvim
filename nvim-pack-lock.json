@@ -12,6 +12,10 @@
       "rev": "5037cfa",
       "src": "https://github.com/Saghen/blink.cmp"
     },
+    "blink-cmp-copilot": {
+      "rev": "439cff7",
+      "src": "https://github.com/giuxtaposition/blink-cmp-copilot"
+    },
     "catppuccin": {
       "rev": "af58927",
       "src": "https://github.com/catppuccin/nvim"
@@ -19,6 +23,14 @@
     "colorful-menu.nvim": {
       "rev": "d5b97d2",
       "src": "https://github.com/xzbdmw/colorful-menu.nvim"
+    },
+    "copilot.lua": {
+      "rev": "3123983",
+      "src": "https://github.com/zbirenbaum/copilot.lua"
+    },
+    "copilot.vim": {
+      "rev": "da369d9",
+      "src": "https://github.com/github/copilot.vim"
     },
     "dial.nvim": {
       "rev": "f0404ec",
