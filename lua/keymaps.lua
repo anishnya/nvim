@@ -52,8 +52,7 @@ end, { desc = "Find marks", noremap = true })
 keymap.set("n", "<leader>fm", function()
     aerial.fzf_picker()
 end, { desc = "Find Symbols" })
-keymap.set("n", "<leader>u", "<cmd>Telescope undo<cr>", { desc = "Undo Tree" })
-
+keymap.set("n", "<leader>u", require("undotree").toggle, { noremap = true, silent = true })
 -- LSP Keymaps
 keymap.set("n", "<leader>lr", function()
     fzf.lsp_references()
@@ -66,7 +65,7 @@ keymap.set("n", "<leader>lc", function()
 end, { desc = "LSP Declarations", noremap = true })
 keymap.set("n", "<leader>li", function()
     fzf.lsp_implementations()
-end, { desc = "LSP Declarations", noremap = true })
+end, { desc = "LSP Implementations", noremap = true })
 keymap.set("n", "<leader>ln", function()
     fzf.lsp_incoming_calls()
 end, { desc = "LSP Incoming Calls", noremap = true })
@@ -98,3 +97,7 @@ keymap.set("n", "<leader>o", "<CMD>Oil<CR>", { desc = "Open Oil" })
 
 -- Aerial Kep Map
 keymap.set("n", "<leader>a", "<cmd>AerialToggle!<CR>")
+
+keymap.set("n", "<leader>rp", function()
+    require("render-markdown").preview()
+end, { desc = "Render Markdown Preview", noremap = true })

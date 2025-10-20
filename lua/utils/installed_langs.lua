@@ -13,10 +13,6 @@ return {
         lsp = "clangd",
     },
     {
-        language = "go",
-        lsp = "gopls",
-    },
-    {
         language = "lua",
         lsp = "lua_ls",
     },

@@ -56,6 +56,10 @@
       "rev": "b8c2315",
       "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
+    "lz.n": {
+      "rev": "01d9202",
+      "src": "https://github.com/lumen-oss/lz.n"
+    },
     "marks.nvim": {
       "rev": "f353e8c",
       "src": "https://github.com/chentoast/marks.nvim"
@@ -120,6 +124,10 @@
       "rev": "2aae268",
       "src": "https://github.com/tris203/precognition.nvim"
     },
+    "render-markdown.nvim": {
+      "rev": "475d3ad",
+      "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
+    },
     "telescope": {
       "rev": "b4da76b",
       "src": "https://github.com/nvim-telescope/telescope.nvim"
@@ -147,6 +155,10 @@
     "treesitter": {
       "rev": "42fc28ba",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
+    },
+    "undotree": {
+      "rev": "1c3e753",
+      "src": "https://github.com/jiaoshijie/undotree"
     },
     "web-devicons": {
       "rev": "b8221e4",

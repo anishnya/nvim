@@ -8,19 +8,11 @@ vim.pack.add({
         name = "blink",
     },
     {
-        src = "https://github.com/zbirenbaum/copilot.lua",
-    },
-    {
         src = "https://github.com/giuxtaposition/blink-cmp-copilot",
         name = "blink-cmp-copilot",
     },
 }, {
     load = true,
-})
-
-require("copilot").setup({
-    suggestion = { enabled = false },
-    panel = { enabled = false },
 })
 
 require("blink.cmp").setup({
